@@ -163,3 +163,5 @@ cython_debug/
 
 # Ignore the API key file
 additional_data/rapidapi.key
+additional_data/imdb_flat_files/title.basics.tsv.gz
+openai.key
