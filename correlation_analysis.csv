@@ -26,7 +26,7 @@ numvotes,tn_production_budget,0.5942908001661287,More reviews are correlated wit
 tn_worldwide_gross,log_profit,0.580665730193739,Global revenue positively impacts relative profitability.
 tn_production_budget,log_profit,0.5530364729746478,High production costs can lead to better relative profitability.
 profit,log_profit,0.5525498649729578,Profitability is strongly reflected in relative profit measures.
-isgenre_music,isgenre_musical,0.5158052402521325,
+isgenre_musical,isgenre_music,0.5158052402521324,
 numvotes,log_profit,0.5089103174936491,More reviews indicate better relative profitability.
 tn_production_budget,isgenre_adventure,0.5074072506153412,Adventure movies tend to have larger budgets.
 foreign_gross,isgenre_adventure,0.49004418333272554,Adventure films often perform well in international markets.
@@ -35,7 +35,7 @@ domestic_gross,isgenre_adventure,0.4247408926056534,Adventure films perform well
 isgenre_adventure,isgenre_animation,0.40639714007014927,
 tn_worldwide_gross,isgenre_adventure,0.3886518992188893,Adventure films are successful globally.
 tn_production_budget,isgenre_action,0.3681408424551403,Action movies tend to have larger production budgets.
-isgenre_mystery,isgenre_horror,0.34873964285784875,
+isgenre_horror,isgenre_mystery,0.34873964285784875,
 isgenre_adventure,log_profit,0.3335293515710693,Adventure movies have higher relative profitability.
 foreign_gross,isgenre_action,0.32530672490081847,Action movies perform well internationally.
 profit,isgenre_adventure,0.32519137101361645,Adventure films are generally more profitable.
@@ -64,16 +64,16 @@ domestic_gross,isgenre_action,0.2346054636188296,Action movies perform well dome
 numvotes,isgenre_action,0.23248859157914306,
 domestic_gross,isgenre_animation,0.22578517456112837,Animation movies perform well domestically.
 runtime_minutes,log_profit,0.22184519895925625,Longer movies tend to have better relative profitability.
-isgenre_thriller,isgenre_horror,0.22072878322391423,
+isgenre_horror,isgenre_thriller,0.22072878322391423,
 tn_worldwide_gross,isgenre_sci-fi,0.2199515417889701,
 runtime_minutes,isgenre_action,0.21830043492680504,
-isgenre_biography,isgenre_drama,0.2182884114024642,
+isgenre_drama,isgenre_biography,0.21828841140246424,
 foreign_gross,isgenre_animation,0.21695463015983435,Animation movies perform well internationally.
 isgenre_biography,isgenre_history,0.21487079170599596,
 averagerating,isgenre_drama,0.21148945014629295,
 runtime_minutes,tn_worldwide_gross,0.21012043450481357,
 profit,isgenre_action,0.20291734842078019,Action movies are more profitable.
-isgenre_mystery,isgenre_thriller,0.20244946863414992,
+isgenre_thriller,isgenre_mystery,0.2024494686341499,
 isgenre_documentary,isgenre_drama,-0.20242275966893236,
 isgenre_drama,isgenre_action,-0.20829369645165774,
 isgenre_drama,isgenre_comedy,-0.21695362041871194,
