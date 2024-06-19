@@ -1,85 +1,156 @@
 Feature1,Feature2,Correlation,Notes
+tn_worldwide_gross,scaled_tn_worldwide_gross,1.000000000000002,
+tn_production_budget,scaled_tn_production_budget,1.0000000000000018,
+foreign_gross,scaled_foreign_gross,1.000000000000001,
+profit_proportion,roi_perc,1.0000000000000009,
+profit,scaled_profit,1.0000000000000007,
+domestic_gross,scaled_domestic_gross,0.9999999999999989,
+tn_domestic_gross,scaled_domestic_gross,0.9999971638165004,
 domestic_gross,tn_domestic_gross,0.9999971638165002,expected to match
-tn_worldwide_gross,profit,0.984410293247425,Global box office performance is a primary driver of profitability.
-foreign_gross,tn_worldwide_gross,0.9829447287390489,Strong performance in international markets boosts overall revenue.
-foreign_gross,profit,0.9654236028542329,International markets significantly contribute to profitability.
+profit,scaled_tn_worldwide_gross,0.9830816834876328,
+tn_worldwide_gross,profit,0.983081683384368,Global box office performance is a primary driver of profitability.
+scaled_profit,scaled_tn_worldwide_gross,0.9830816833346457,
+tn_worldwide_gross,scaled_profit,0.9830816832313762,
+tn_worldwide_gross,scaled_foreign_gross,0.9803753439796451,
+scaled_tn_worldwide_gross,scaled_foreign_gross,0.9803753435847694,
+foreign_gross,tn_worldwide_gross,0.9803753435188599,Strong performance in international markets boosts overall revenue.
+foreign_gross,scaled_tn_worldwide_gross,0.9803753431239864,
+foreign_gross,profit,0.9649743718339118,International markets significantly contribute to profitability.
+profit,scaled_foreign_gross,0.9649743718131353,
+foreign_gross,scaled_profit,0.9649743716760033,
+scaled_profit,scaled_foreign_gross,0.9649743716552289,
+tn_domestic_gross,scaled_tn_worldwide_gross,0.9440578774297779,
 tn_domestic_gross,tn_worldwide_gross,0.9440578764896076,Domestic performance is closely tied to global success.
-domestic_gross,tn_worldwide_gross,0.9424595994765488,Domestic box office revenue correlates with worldwide revenue.
+tn_domestic_gross,scaled_profit,0.9419281840811975,
 tn_domestic_gross,profit,0.9419281838902172,Success in the domestic market strongly impacts overall profitability.
-domestic_gross,profit,0.9384943155170584,Domestic box office performance is a major factor in profitability.
+domestic_gross,scaled_tn_worldwide_gross,0.9308737534664766,
+scaled_tn_worldwide_gross,scaled_domestic_gross,0.9308737534664759,
+tn_worldwide_gross,scaled_domestic_gross,0.9308737527142182,
+domestic_gross,tn_worldwide_gross,0.9308737527142179,Domestic box office revenue correlates with worldwide revenue.
+profit,scaled_domestic_gross,0.9231158279464098,
+domestic_gross,profit,0.923115827946409,Domestic box office performance is a major factor in profitability.
+domestic_gross,scaled_profit,0.9231158275616747,
+scaled_profit,scaled_domestic_gross,0.9231158275616743,
+tn_domestic_gross,scaled_foreign_gross,0.869878977005529,
 foreign_gross,tn_domestic_gross,0.8698789763071733,International performance is closely linked to domestic success.
-domestic_gross,foreign_gross,0.8634861939932681,Movies that perform well domestically also tend to do well internationally.
-foreign_gross,tn_production_budget,0.8016001638438784,Higher production budgets often lead to better foreign market performance.
-tn_production_budget,tn_worldwide_gross,0.7780326234510474,Large budgets are indicative of successful global box office returns.
-domestic_gross,tn_production_budget,0.7251993687123173,High production costs often translate to high domestic revenue.
+domestic_gross,scaled_foreign_gross,0.8385326253323717,
+scaled_domestic_gross,scaled_foreign_gross,0.8385326253323716,
+foreign_gross,scaled_domestic_gross,0.8385326240282256,
+domestic_gross,foreign_gross,0.8385326240282253,Movies that perform well domestically also tend to do well internationally.
+scaled_tn_production_budget,scaled_foreign_gross,0.7865073833561778,
+tn_production_budget,scaled_foreign_gross,0.7865073830067747,
+foreign_gross,scaled_tn_production_budget,0.786507381162335,
+foreign_gross,tn_production_budget,0.7865073808129296,Higher production budgets often lead to better foreign market performance.
+tn_production_budget,tn_worldwide_gross,0.7653342302547455,Large budgets are indicative of successful global box office returns.
+tn_worldwide_gross,scaled_tn_production_budget,0.7653342301848426,
+tn_production_budget,scaled_tn_worldwide_gross,0.7653342298918787,
+scaled_tn_production_budget,scaled_tn_worldwide_gross,0.7653342298219764,
+scaled_tn_production_budget,scaled_domestic_gross,0.7262905605572663,
+domestic_gross,scaled_tn_production_budget,0.7262905605572659,
+domestic_gross,tn_production_budget,0.7262905603741614,High production costs often translate to high domestic revenue.
+tn_production_budget,scaled_domestic_gross,0.7262905603741608,
 tn_domestic_gross,log_profit,0.7166292652122642,Higher domestic gross generally leads to better relative profitability.
-foreign_gross,log_profit,0.7138062398913676,Success in foreign markets enhances relative profitability.
+scaled_foreign_gross,log_profit,0.7151358970403263,
+foreign_gross,log_profit,0.7151358952803193,Success in foreign markets enhances relative profitability.
+tn_domestic_gross,scaled_tn_production_budget,0.7117892130543796,
 tn_production_budget,tn_domestic_gross,0.7117892127890106,Bigger budgets are associated with better domestic performance.
-domestic_gross,log_profit,0.6954143178337332,Strong domestic revenue boosts relative profitability.
-numvotes,tn_worldwide_gross,0.6831724005462918,Movies with more reviews typically achieve higher global revenue.
-numvotes,domestic_gross,0.6756006148756101,More reviews are indicative of better domestic box office performance.
+scaled_domestic_gross,log_profit,0.6843926327153391,
+domestic_gross,log_profit,0.6843926327153387,Strong domestic revenue boosts relative profitability.
+numvotes,domestic_gross,0.6774475513776512,More reviews are indicative of better domestic box office performance.
+numvotes,scaled_domestic_gross,0.6774475513776511,
+numvotes,tn_worldwide_gross,0.6734104123115561,Movies with more reviews typically achieve higher global revenue.
+numvotes,scaled_tn_worldwide_gross,0.6734104101980465,
 numvotes,tn_domestic_gross,0.6567884592418041,High review counts are linked to strong domestic performance.
-tn_production_budget,profit,0.6554066642872327,Investing more in production usually results in higher profits.
-numvotes,profit,0.6548194369010142,High review counts often signal greater profitability.
-numvotes,foreign_gross,0.6301232678893779,Review volume correlates with international market success.
-numvotes,tn_production_budget,0.5942908001661287,More reviews are correlated with higher production budgets.
-tn_worldwide_gross,log_profit,0.580665730193739,Global revenue positively impacts relative profitability.
-tn_production_budget,log_profit,0.5530364729746478,High production costs can lead to better relative profitability.
-profit,log_profit,0.5525498649729578,Profitability is strongly reflected in relative profit measures.
-isgenre_musical,isgenre_music,0.5158052402521324,
-numvotes,log_profit,0.5089103174936491,More reviews indicate better relative profitability.
-tn_production_budget,isgenre_adventure,0.5074072506153412,Adventure movies tend to have larger budgets.
-foreign_gross,isgenre_adventure,0.49004418333272554,Adventure films often perform well in international markets.
+numvotes,profit,0.6427365427001958,High review counts often signal greater profitability.
+numvotes,scaled_profit,0.642736541206795,
+tn_production_budget,profit,0.6344932806191721,Investing more in production usually results in higher profits.
+profit,scaled_tn_production_budget,0.6344932805352287,
+tn_production_budget,scaled_profit,0.6344932799735886,
+scaled_profit,scaled_tn_production_budget,0.6344932798896465,
+numvotes,scaled_foreign_gross,0.6095690900077317,
+numvotes,foreign_gross,0.6095690893343197,Review volume correlates with international market success.
+tn_worldwide_gross,log_profit,0.5835929994771264,Global revenue positively impacts relative profitability.
+scaled_tn_worldwide_gross,log_profit,0.5835929992923926,
+numvotes,tn_production_budget,0.582563183169948,More reviews are correlated with higher production budgets.
+numvotes,scaled_tn_production_budget,0.5825631830840079,
+scaled_profit,log_profit,0.5549955777665077,
+profit,log_profit,0.5549955776049966,Profitability is strongly reflected in relative profit measures.
+tn_production_budget,log_profit,0.5512198258289168,High production costs can lead to better relative profitability.
+scaled_tn_production_budget,log_profit,0.5512198256770108,
+isgenre_musical,isgenre_music,0.5409521492922151,
+numvotes,log_profit,0.5039416150194049,More reviews indicate better relative profitability.
+tn_production_budget,isgenre_adventure,0.4993294908373414,Adventure movies tend to have larger budgets.
+isgenre_adventure,scaled_tn_production_budget,0.499329490629445,
+isgenre_adventure,scaled_foreign_gross,0.4831292321763736,
+foreign_gross,isgenre_adventure,0.48312923086977994,Adventure films often perform well in international markets.
 tn_domestic_gross,isgenre_adventure,0.438271844240347,Adventure films do well in domestic markets.
-domestic_gross,isgenre_adventure,0.4247408926056534,Adventure films perform well domestically.
-isgenre_adventure,isgenre_animation,0.40639714007014927,
-tn_worldwide_gross,isgenre_adventure,0.3886518992188893,Adventure films are successful globally.
-tn_production_budget,isgenre_action,0.3681408424551403,Action movies tend to have larger production budgets.
-isgenre_horror,isgenre_mystery,0.34873964285784875,
-isgenre_adventure,log_profit,0.3335293515710693,Adventure movies have higher relative profitability.
-foreign_gross,isgenre_action,0.32530672490081847,Action movies perform well internationally.
-profit,isgenre_adventure,0.32519137101361645,Adventure films are generally more profitable.
+domestic_gross,isgenre_adventure,0.4196675327137298,Adventure films perform well domestically.
+isgenre_adventure,scaled_domestic_gross,0.41966753271372925,
+isgenre_adventure,isgenre_animation,0.41831838457401427,
+isgenre_adventure,scaled_tn_worldwide_gross,0.3796033133951646,
+tn_worldwide_gross,isgenre_adventure,0.3796033132747341,Adventure films are successful globally.
+tn_production_budget,isgenre_action,0.35599162509074,Action movies tend to have larger production budgets.
+isgenre_action,scaled_tn_production_budget,0.35599162499009623,
+isgenre_mystery,isgenre_horror,0.3465211001306186,
+isgenre_adventure,log_profit,0.3341229978803541,Adventure movies have higher relative profitability.
+foreign_gross,isgenre_action,0.33354776268467584,Action movies perform well internationally.
+isgenre_action,scaled_foreign_gross,0.3335477624882162,
 averagerating,tn_domestic_gross,0.3185714528814753,Movies with higher ratings often perform better domestically.
-isgenre_adventure,isgenre_action,0.3145925589084311,
-foreign_gross,isgenre_sci-fi,0.31328958777651206,Sci-fi movies perform well internationally.
-averagerating,numvotes,0.31088694514247917,
-runtime_minutes,foreign_gross,0.30110708174647355,Longer movies do well in international markets.
-domestic_gross,isgenre_sci-fi,0.2929334547382981,Sci-fi movies perform well domestically.
-averagerating,domestic_gross,0.28540631369732766,High ratings often correlate with domestic success.
+profit,isgenre_adventure,0.31375818743240047,Adventure films are generally more profitable.
+isgenre_adventure,scaled_profit,0.31375818727808036,
+averagerating,numvotes,0.3088959581072905,
+isgenre_action,isgenre_adventure,0.307560118731839,
+isgenre_sci-fi,scaled_foreign_gross,0.30406149591979,
+foreign_gross,isgenre_sci-fi,0.30406149435717206,Sci-fi movies perform well internationally.
+runtime_minutes,foreign_gross,0.3003750651085048,Longer movies do well in international markets.
+runtime_minutes,scaled_foreign_gross,0.30037506375742773,
+domestic_gross,isgenre_sci-fi,0.2954494342879898,Sci-fi movies perform well domestically.
+isgenre_sci-fi,scaled_domestic_gross,0.2954494342879894,
+runtime_minutes,averagerating,0.291734765014882,
 tn_domestic_gross,isgenre_sci-fi,0.284602110230831,Sci-fi movies do well in domestic markets.
-runtime_minutes,averagerating,0.2810878597501755,
-numvotes,isgenre_sci-fi,0.27738871690925615,
+isgenre_action,log_profit,0.27226497759401663,Action movies have higher relative profitability.
+averagerating,scaled_domestic_gross,0.2714762386359401,
+averagerating,domestic_gross,0.27147623863593984,High ratings often correlate with domestic success.
 tn_domestic_gross,isgenre_action,0.26912243000286523,Action movies perform well domestically.
 runtime_minutes,tn_domestic_gross,0.26774597723213306,Longer movies perform well domestically.
-isgenre_action,log_profit,0.2662919541076872,Action movies have higher relative profitability.
-averagerating,foreign_gross,0.2649413122980394,High ratings are indicative of international success.
-runtime_minutes,numvotes,0.26094749307730764,
-runtime_minutes,tn_production_budget,0.25919129520089185,Longer movies tend to have larger budgets.
-tn_production_budget,isgenre_sci-fi,0.2565186962794532,
-tn_worldwide_gross,isgenre_action,0.25451465471285006,Action movies are successful globally.
-numvotes,isgenre_adventure,0.24962348815718485,
+averagerating,scaled_foreign_gross,0.25343313214367363,
+averagerating,foreign_gross,0.2534331312261727,High ratings are indicative of international success.
+numvotes,isgenre_sci-fi,0.25283155536943824,
+runtime_minutes,scaled_tn_production_budget,0.250181297370152,
+runtime_minutes,tn_production_budget,0.25018129716749316,Longer movies tend to have larger budgets.
+runtime_minutes,numvotes,0.2485187265904552,
+tn_worldwide_gross,isgenre_action,0.2458400395491962,Action movies are successful globally.
+isgenre_action,scaled_tn_worldwide_gross,0.24584003904973575,
 tn_domestic_gross,isgenre_animation,0.24534373190990807,Animation movies perform well domestically.
-runtime_minutes,isgenre_drama,0.24099436328529578,
-domestic_gross,isgenre_action,0.2346054636188296,Action movies perform well domestically.
-numvotes,isgenre_action,0.23248859157914306,
-domestic_gross,isgenre_animation,0.22578517456112837,Animation movies perform well domestically.
-runtime_minutes,log_profit,0.22184519895925625,Longer movies tend to have better relative profitability.
-isgenre_horror,isgenre_thriller,0.22072878322391423,
-tn_worldwide_gross,isgenre_sci-fi,0.2199515417889701,
-runtime_minutes,isgenre_action,0.21830043492680504,
-isgenre_drama,isgenre_biography,0.21828841140246424,
-foreign_gross,isgenre_animation,0.21695463015983435,Animation movies perform well internationally.
-isgenre_biography,isgenre_history,0.21487079170599596,
-averagerating,isgenre_drama,0.21148945014629295,
-runtime_minutes,tn_worldwide_gross,0.21012043450481357,
-profit,isgenre_action,0.20291734842078019,Action movies are more profitable.
-isgenre_thriller,isgenre_mystery,0.2024494686341499,
-isgenre_documentary,isgenre_drama,-0.20242275966893236,
-isgenre_drama,isgenre_action,-0.20829369645165774,
-isgenre_drama,isgenre_comedy,-0.21695362041871194,
-isgenre_drama,isgenre_animation,-0.2288806155973012,
-isgenre_thriller,isgenre_comedy,-0.2490983814940875,
+runtime_minutes,isgenre_drama,0.24144364557164338,
+isgenre_sci-fi,scaled_tn_production_budget,0.24048493823012004,
+tn_production_budget,isgenre_sci-fi,0.24048493784330335,
+domestic_gross,isgenre_action,0.23065367015296592,Action movies perform well domestically.
+isgenre_action,scaled_domestic_gross,0.23065367015296565,
+numvotes,isgenre_adventure,0.22949165492155854,
+domestic_gross,isgenre_animation,0.224343754779897,Animation movies perform well domestically.
+isgenre_animation,scaled_domestic_gross,0.22434375477989651,
+runtime_minutes,isgenre_action,0.22196779373900385,
+runtime_minutes,log_profit,0.22032308796561673,Longer movies tend to have better relative profitability.
+averagerating,isgenre_drama,0.2182073594167681,
+isgenre_biography,isgenre_drama,0.21653819905538382,
+numvotes,isgenre_action,0.2130389053218179,
+isgenre_biography,isgenre_history,0.21099069094690262,
+isgenre_animation,scaled_foreign_gross,0.2102387266386561,
+foreign_gross,isgenre_animation,0.21023872352401757,Animation movies perform well internationally.
+runtime_minutes,tn_worldwide_gross,0.2054587248269567,
+runtime_minutes,scaled_tn_worldwide_gross,0.2054587247187889,
+tn_worldwide_gross,isgenre_sci-fi,0.20476218157410225,
+isgenre_sci-fi,scaled_tn_worldwide_gross,0.2047621805096211,
+isgenre_thriller,isgenre_horror,0.20108222794174435,
+runtime_minutes,isgenre_animation,-0.2002346779247327,
+isgenre_action,isgenre_drama,-0.21230809050250796,
+isgenre_drama,isgenre_comedy,-0.22089156062890986,
+isgenre_drama,isgenre_animation,-0.23558761539212691,
+isgenre_thriller,isgenre_comedy,-0.2564814674576143,
 tn_domestic_gross,isgenre_drama,-0.2630133913942728,Drama movies perform worse domestically.
-domestic_gross,isgenre_drama,-0.2817917084466865,Drama movies tend to perform worse domestically.
-foreign_gross,isgenre_drama,-0.2911369701017329,Drama movies perform worse internationally.
-isgenre_adventure,isgenre_drama,-0.30899683777911424,
+foreign_gross,isgenre_drama,-0.2798185773071535,Drama movies perform worse internationally.
+isgenre_drama,scaled_foreign_gross,-0.2798185791677232,
+domestic_gross,isgenre_drama,-0.2823183290990905,Drama movies tend to perform worse domestically.
+isgenre_drama,scaled_domestic_gross,-0.2823183290990907,
+isgenre_drama,isgenre_adventure,-0.30976387294872776,

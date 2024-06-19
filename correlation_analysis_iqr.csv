@@ -1,191 +1,311 @@
 Feature1,Feature2,Correlation,Notes
+domestic_gross,scaled_domestic_gross,1.0000000000000002,
+foreign_gross,scaled_foreign_gross,0.9999999999999993,
+tn_worldwide_gross,scaled_tn_worldwide_gross,0.9999999999999993,
+tn_production_budget,scaled_tn_production_budget,0.999999999999998,
+profit,scaled_profit,0.9999999999999973,
+profit_proportion,roi_perc,0.9999999999999961,
 domestic_gross,tn_domestic_gross,0.9999968487409608,Domestic gross is almost perfectly correlated with tn_domestic_gross ensuring consistent revenue measurement. 
-foreign_gross,tn_worldwide_gross,0.9846127243921132,High correlation indicates the significance of international markets in overall worldwide gross.
-tn_worldwide_gross,profit,0.9834047206414214,Worldwide gross strongly impacts overall profit; prioritize global appeal to maximize profit.
-foreign_gross,profit,0.968831054763326,Foreign gross significantly contributes to profit; focus on international marketing.
+tn_domestic_gross,scaled_domestic_gross,0.9999968487409578,
+tn_worldwide_gross,scaled_foreign_gross,0.9838015457695508,
+foreign_gross,tn_worldwide_gross,0.9838015451885734,High correlation indicates the significance of international markets in overall worldwide gross.
+scaled_tn_worldwide_gross,scaled_foreign_gross,0.9838015450244667,
+foreign_gross,scaled_tn_worldwide_gross,0.9838015444434891,
+tn_worldwide_gross,profit,0.981761496149126,Worldwide gross strongly impacts overall profit; prioritize global appeal to maximize profit.
+tn_worldwide_gross,scaled_profit,0.9817614961140481,
+profit,scaled_tn_worldwide_gross,0.9817614958451684,
+scaled_profit,scaled_tn_worldwide_gross,0.9817614958100879,
+foreign_gross,profit,0.9686340643299399,Foreign gross significantly contributes to profit; focus on international marketing.
+profit,scaled_foreign_gross,0.9686340643148733,
+foreign_gross,scaled_profit,0.9686340639584784,
+scaled_profit,scaled_foreign_gross,0.9686340639434132,
+tn_domestic_gross,scaled_tn_worldwide_gross,0.948931676922292,
 tn_domestic_gross,tn_worldwide_gross,0.9489316755504236,Domestic gross is a major component of worldwide gross; balance domestic and international strategies.
+tn_domestic_gross,scaled_profit,0.9476694049924353,
 tn_domestic_gross,profit,0.9476694040050568,Domestic gross substantially impacts profit; ensure strong domestic market presence.
-domestic_gross,tn_worldwide_gross,0.9469385085726642,Domestic gross significantly affects worldwide gross; leverage domestic success to boost international performance.
-domestic_gross,profit,0.9438893248636606,Domestic gross drives profit; enhance domestic market strategies.
+scaled_tn_worldwide_gross,scaled_domestic_gross,0.9436418476606763,
+domestic_gross,scaled_tn_worldwide_gross,0.9436418476606756,
+domestic_gross,tn_worldwide_gross,0.9436418462552039,Domestic gross significantly affects worldwide gross; leverage domestic success to boost international performance.
+tn_worldwide_gross,scaled_domestic_gross,0.9436418462552035,
+scaled_profit,scaled_domestic_gross,0.9395008679471633,
+domestic_gross,scaled_profit,0.939500867947162,
+profit,scaled_domestic_gross,0.9395008670370261,
+domestic_gross,profit,0.9395008670370248,Domestic gross drives profit; enhance domestic market strategies.
+tn_domestic_gross,scaled_foreign_gross,0.8817410541290189,
 foreign_gross,tn_domestic_gross,0.8817410525828627,Foreign and domestic grosses are interrelated; optimize both for maximum revenue.
-domestic_gross,foreign_gross,0.8748853251892462,Strong interplay between domestic and foreign grosses; coordinate marketing efforts across regions.
-foreign_gross,tn_production_budget,0.8461306107879952,Higher production budgets tend to generate higher foreign grosses; invest wisely in production.
-tn_production_budget,tn_worldwide_gross,0.8146023577390198,Bigger budgets generally lead to higher worldwide gross; ensure budget efficiency.
-domestic_gross,tn_production_budget,0.7733169044252787,Higher domestic grosses often come from larger budgets; align budget with expected domestic performance.
+scaled_domestic_gross,scaled_foreign_gross,0.8675008946608858,
+domestic_gross,scaled_foreign_gross,0.8675008946608848,
+domestic_gross,foreign_gross,0.8675008930172537,Strong interplay between domestic and foreign grosses; coordinate marketing efforts across regions.
+foreign_gross,scaled_domestic_gross,0.8675008930172531,
+scaled_tn_production_budget,scaled_foreign_gross,0.842619168583768,
+tn_production_budget,scaled_foreign_gross,0.8426191682861198,
+foreign_gross,scaled_tn_production_budget,0.8426191659523882,
+foreign_gross,tn_production_budget,0.8426191656547383,Higher production budgets tend to generate higher foreign grosses; invest wisely in production.
+tn_production_budget,scaled_tn_worldwide_gross,0.8060575477808829,
+scaled_tn_production_budget,scaled_tn_worldwide_gross,0.8060575476907398,
+tn_production_budget,tn_worldwide_gross,0.8060575468346527,Bigger budgets generally lead to higher worldwide gross; ensure budget efficiency.
+tn_worldwide_gross,scaled_tn_production_budget,0.8060575467445111,
+scaled_tn_production_budget,scaled_domestic_gross,0.7741945984579804,
+domestic_gross,scaled_tn_production_budget,0.77419459845798,
+tn_production_budget,scaled_domestic_gross,0.7741945982478008,
+domestic_gross,tn_production_budget,0.7741945982478006,Higher domestic grosses often come from larger budgets; align budget with expected domestic performance.
+tn_domestic_gross,scaled_tn_production_budget,0.7632901394295034,
 tn_production_budget,tn_domestic_gross,0.7632901391545521,Production budget correlates with domestic gross; allocate budget based on domestic market potential.
-foreign_gross,log_profit,0.7259397294887104,Foreign gross is a key factor in logarithmic profit; enhance foreign market strategies.
+scaled_foreign_gross,log_profit,0.7265968067489152,
+foreign_gross,log_profit,0.7265968043829669,Foreign gross is a key factor in logarithmic profit; enhance foreign market strategies.
 tn_domestic_gross,log_profit,0.7208863320845434,Domestic gross contributes significantly to log profit; maintain a robust domestic market.
-domestic_gross,log_profit,0.7037465032614861,Domestic gross impacts logarithmic profit; ensure strong domestic performance.
-numvotes,tn_worldwide_gross,0.6988801982020801,Number of votes correlates with worldwide gross; engage audiences to drive votes and gross.
-tn_production_budget,profit,0.6958535075945416,Higher production budgets are linked to higher profits; optimize budget allocation.
-numvotes,domestic_gross,0.6928335176134321,Number of votes impacts domestic gross; increase audience engagement domestically.
+scaled_domestic_gross,log_profit,0.6977744260085481,
+domestic_gross,log_profit,0.6977744260085473,Domestic gross impacts logarithmic profit; ensure strong domestic performance.
+numvotes,domestic_gross,0.6942079405728898,Number of votes impacts domestic gross; increase audience engagement domestically.
+numvotes,scaled_domestic_gross,0.6942079405728897,
+numvotes,tn_worldwide_gross,0.6913801580409098,Number of votes correlates with worldwide gross; engage audiences to drive votes and gross.
+numvotes,scaled_tn_worldwide_gross,0.691380156155064,
+tn_production_budget,profit,0.6788381263280578,Higher production budgets are linked to higher profits; optimize budget allocation.
+profit,scaled_tn_production_budget,0.6788381262162174,
+tn_production_budget,scaled_profit,0.6788381261925781,
+scaled_profit,scaled_tn_production_budget,0.6788381260807385,
 numvotes,tn_domestic_gross,0.6752202502241117,Audience engagement through votes influences domestic gross; foster community involvement.
-numvotes,profit,0.6667405166890354,Number of votes correlates with profit; engage and expand audience for better profitability.
-numvotes,foreign_gross,0.6587498997828176,Audience votes drive foreign gross; enhance international audience interaction.
-numvotes,tn_production_budget,0.6349929207401125,Production budget correlates with number of votes; budget for marketing to boost engagement.
-tn_production_budget,log_profit,0.6010973494452484,Production budget impacts log profit; ensure effective budget use.
-tn_worldwide_gross,log_profit,0.5813106128653129,Worldwide gross significantly affects log profit; global market focus is crucial.
+numvotes,profit,0.6551092357696948,Number of votes correlates with profit; engage and expand audience for better profitability.
+numvotes,scaled_profit,0.6551092342493237,
+numvotes,scaled_foreign_gross,0.6527665791684839,
+numvotes,foreign_gross,0.6527665778216971,Audience votes drive foreign gross; enhance international audience interaction.
+numvotes,tn_production_budget,0.6308300680582465,Production budget correlates with number of votes; budget for marketing to boost engagement.
+numvotes,scaled_tn_production_budget,0.6308300679904754,
+tn_production_budget,log_profit,0.5976383989905719,Production budget impacts log profit; ensure effective budget use.
+scaled_tn_production_budget,log_profit,0.5976383987932926,
+scaled_tn_worldwide_gross,log_profit,0.5848602382000544,
+tn_worldwide_gross,log_profit,0.5848602379337727,Worldwide gross significantly affects log profit; global market focus is crucial.
+isgenre_musical,isgenre_music,0.5647619381759386,
+tn_domestic_gross,roi_perc,0.5633950374141444,
 tn_domestic_gross,profit_proportion,0.5633950365894056,Domestic gross impacts ROI; maximize domestic revenue for better returns.
-isgenre_musical,isgenre_music,0.5448127279518701,
-profit,log_profit,0.5438291300798644,Profit and log profit are strongly related; both are key performance indicators.
-domestic_gross,profit_proportion,0.5165259194243615,Domestic gross influences ROI; strengthen domestic market strategies.
-foreign_gross,isgenre_adventure,0.5119521771370837,Adventure genres perform well internationally; invest in high-quality adventure films.
-numvotes,log_profit,0.5117895569634713,Audience votes correlate with log profit; focus on engaging content to increase profitability.
-tn_production_budget,isgenre_adventure,0.5074227195649509,Adventure films often require higher budgets; allocate resources accordingly.
-profit,profit_proportion,0.48578193737592945,Higher profits lead to better ROI; focus on profitable projects.
-foreign_gross,profit_proportion,0.47075848304367807,Foreign gross impacts ROI; international success is crucial for high returns.
+scaled_profit,log_profit,0.5478658163774505,
+profit,log_profit,0.5478658163612226,Profit and log profit are strongly related; both are key performance indicators.
+numvotes,log_profit,0.5107755563959236,Audience votes correlate with log profit; focus on engaging content to increase profitability.
+domestic_gross,profit_proportion,0.5071570316755276,Domestic gross influences ROI; strengthen domestic market strategies.
+profit_proportion,scaled_domestic_gross,0.5071570316755273,
+roi_perc,scaled_domestic_gross,0.5071570316576797,
+domestic_gross,roi_perc,0.5071570316576784,
+isgenre_adventure,scaled_foreign_gross,0.5052923827433405,
+foreign_gross,isgenre_adventure,0.5052923811204214,Adventure genres perform well internationally; invest in high-quality adventure films.
+tn_production_budget,isgenre_adventure,0.4984582136010563,Adventure films often require higher budgets; allocate resources accordingly.
+isgenre_adventure,scaled_tn_production_budget,0.49845821337957696,
+profit,roi_perc,0.48690600881847945,
+roi_perc,scaled_profit,0.4869060088033823,
+profit,profit_proportion,0.4869060083423616,Higher profits lead to better ROI; focus on profitable projects.
+profit_proportion,scaled_profit,0.4869060083272659,
+roi_perc,scaled_foreign_gross,0.4751214112824809,
+foreign_gross,roi_perc,0.4751214111137718,
+profit_proportion,scaled_foreign_gross,0.47512140982675694,
+foreign_gross,profit_proportion,0.4751214096580485,Foreign gross impacts ROI; international success is crucial for high returns.
 tn_domestic_gross,isgenre_adventure,0.4705501506952766,Adventure films do well domestically; invest in adventure genres for local markets.
-domestic_gross,isgenre_adventure,0.45775764856597495,Adventure genres boost domestic gross; prioritize adventure film production.
-tn_worldwide_gross,profit_proportion,0.4487403939238016,Worldwide gross drives ROI; aim for global box office success.
-tn_worldwide_gross,isgenre_adventure,0.40714028391932283,Adventure films contribute to worldwide gross; global market strategies should include adventure genres.
-profit_proportion,log_profit,0.4051413877032711,ROI and log profit are related; improving profit boosts ROI.
-isgenre_adventure,isgenre_animation,0.39734805489142494,Adventure and animation genres are linked; explore crossover opportunities.
-tn_production_budget,isgenre_action,0.3737114273617289,Action films require larger budgets; plan budget allocation to support action films.
-numvotes,profit_proportion,0.3708121639807687,Audience engagement through votes enhances ROI; encourage audience participation.
-isgenre_adventure,log_profit,0.36779670016017624,Adventure films contribute to log profit; invest in high-quality adventure films.
-foreign_gross,isgenre_action,0.3541309940686791,Action genres perform well internationally; consider action films for foreign markets.
-profit,isgenre_adventure,0.34540576833946324,Adventure genres contribute to profit; continue investing in adventure films.
-foreign_gross,isgenre_sci-fi,0.3445178976256429,Sci-fi films perform well internationally; target foreign markets for sci-fi releases.
+isgenre_adventure,scaled_domestic_gross,0.4530099843845242,
+domestic_gross,isgenre_adventure,0.4530099843845238,Adventure genres boost domestic gross; prioritize adventure film production.
+tn_worldwide_gross,roi_perc,0.446107229390467,
+roi_perc,scaled_tn_worldwide_gross,0.44610722918434154,
+tn_worldwide_gross,profit_proportion,0.44610722888681925,Worldwide gross drives ROI; aim for global box office success.
+profit_proportion,scaled_tn_worldwide_gross,0.4461072286806944,
+roi_perc,log_profit,0.4173307870953188,
+profit_proportion,log_profit,0.4173307863949282,ROI and log profit are related; improving profit boosts ROI.
+isgenre_adventure,isgenre_animation,0.4068832672342664,
+isgenre_adventure,scaled_tn_worldwide_gross,0.3975800433594673,
+tn_worldwide_gross,isgenre_adventure,0.397580042767375,Adventure films contribute to worldwide gross; global market strategies should include adventure genres.
+isgenre_adventure,log_profit,0.36808286520578765,Adventure films contribute to log profit; invest in high-quality adventure films.
+tn_production_budget,isgenre_action,0.3618554062723455,Action films require larger budgets; plan budget allocation to support action films.
+isgenre_action,scaled_tn_production_budget,0.3618554061572188,
+numvotes,profit_proportion,0.35809495578825773,Audience engagement through votes enhances ROI; encourage audience participation.
+numvotes,roi_perc,0.3580949556702685,
+isgenre_action,scaled_foreign_gross,0.35621809047823827,
+foreign_gross,isgenre_action,0.3562180902218962,Action genres perform well internationally; consider action films for foreign markets.
+isgenre_sci-fi,scaled_foreign_gross,0.341734283274224,
+foreign_gross,isgenre_sci-fi,0.3417342813796351,Sci-fi films perform well internationally; target foreign markets for sci-fi releases.
+profit,isgenre_adventure,0.3331541340591655,Adventure genres contribute to profit; continue investing in adventure films.
+isgenre_adventure,scaled_profit,0.3331541339372893,
 averagerating,tn_domestic_gross,0.3273550007465484,Higher average ratings correlate with domestic gross; focus on quality to boost ratings.
-runtime_minutes,foreign_gross,0.3233206551743487,Longer runtimes are linked to higher foreign gross; consider runtime when targeting international markets.
-domestic_gross,isgenre_sci-fi,0.32041573652268457,Sci-fi films boost domestic gross; prioritize sci-fi production for domestic audiences.
+isgenre_sci-fi,scaled_domestic_gross,0.322131582738231,
+domestic_gross,isgenre_sci-fi,0.32213158273823095,Sci-fi films boost domestic gross; prioritize sci-fi production for domestic audiences.
+runtime_minutes,foreign_gross,0.32179808851157204,Longer runtimes are linked to higher foreign gross; consider runtime when targeting international markets.
+runtime_minutes,scaled_foreign_gross,0.3217980878804354,
 tn_domestic_gross,isgenre_sci-fi,0.315780029188197,Sci-fi films perform well domestically; invest in sci-fi genre for local success.
-isgenre_adventure,isgenre_action,0.314005137183457,Adventure and action genres are related; explore hybrid films.
-averagerating,numvotes,0.30015548871075043,Higher ratings correlate with more votes; ensure quality to drive audience engagement.
+isgenre_action,isgenre_adventure,0.3071610189898618,
+isgenre_action,log_profit,0.3055611941831157,Action films contribute to log profit; prioritize action genres.
 tn_domestic_gross,isgenre_action,0.29998973840989823,Action films drive domestic gross; focus on action films for local markets.
 runtime_minutes,tn_domestic_gross,0.29841767914203327,Longer runtimes are linked to domestic gross; consider runtime strategies.
-isgenre_action,log_profit,0.2983003998280251,Action films contribute to log profit; prioritize action genres.
-averagerating,domestic_gross,0.2959213444665736,Higher average ratings boost domestic gross; focus on film quality.
-numvotes,isgenre_sci-fi,0.29160830115100506,Sci-fi films receive more votes; engage audiences with sci-fi content.
-isgenre_horror,isgenre_mystery,0.28842475773287735,
-numvotes,isgenre_adventure,0.2850816393394958,Adventure films receive more votes; encourage audience engagement with adventure genres.
-tn_worldwide_gross,isgenre_action,0.28320745096542965,Action films drive worldwide gross; prioritize action genres for global markets.
-runtime_minutes,numvotes,0.2725931026577227,Longer runtimes correlate with more votes; consider runtime to engage audiences.
-averagerating,foreign_gross,0.2722887433510965,Higher ratings drive foreign gross; ensure high-quality films.
-runtime_minutes,tn_production_budget,0.2715760379238039,Longer runtimes often require higher budgets; plan budget for longer films.
-domestic_gross,isgenre_action,0.268346861294331,Action films boost domestic gross; invest in action genres.
-tn_production_budget,isgenre_sci-fi,0.2623364505964814,Sci-fi films require higher budgets; allocate resources accordingly.
-numvotes,isgenre_action,0.2621375154124264,Action films receive more votes; promote audience engagement with action genres.
-runtime_minutes,averagerating,0.26066408769721294,Longer runtimes correlate with higher ratings; consider runtime strategies.
-runtime_minutes,isgenre_drama,0.2355577078207,Drama films tend to have longer runtimes; consider runtime in drama productions.
-runtime_minutes,log_profit,0.23419652266664256,Longer runtimes are linked to log profit; invest in longer films for better returns.
-tn_worldwide_gross,isgenre_sci-fi,0.23416719472502942,Sci-fi films contribute to worldwide gross; target global markets.
-profit,isgenre_action,0.2337752233108276,Action films contribute to profit; invest in action genres.
-runtime_minutes,tn_worldwide_gross,0.22787890114750534,Longer runtimes drive worldwide gross; consider runtime strategies for global markets.
-runtime_minutes,domestic_gross,0.22467900014319858,Longer runtimes boost domestic gross; plan runtime accordingly.
+averagerating,numvotes,0.2977698591562472,Higher ratings correlate with more votes; ensure quality to drive audience engagement.
+isgenre_mystery,isgenre_horror,0.29700739622993394,
+averagerating,domestic_gross,0.2861963288055172,Higher average ratings boost domestic gross; focus on film quality.
+averagerating,scaled_domestic_gross,0.2861963288055166,
+isgenre_action,scaled_tn_worldwide_gross,0.2763482734923144,
+tn_worldwide_gross,isgenre_action,0.2763482731185791,Action films drive worldwide gross; prioritize action genres for global markets.
+numvotes,isgenre_sci-fi,0.27095254032318716,Sci-fi films receive more votes; engage audiences with sci-fi content.
+averagerating,scaled_foreign_gross,0.2695742911053047,
+averagerating,foreign_gross,0.2695742897633603,Higher ratings drive foreign gross; ensure high-quality films.
+runtime_minutes,averagerating,0.26941404938861085,Longer runtimes correlate with higher ratings; consider runtime strategies.
+numvotes,isgenre_adventure,0.26727878963575546,Adventure films receive more votes; encourage audience engagement with adventure genres.
+isgenre_action,scaled_domestic_gross,0.2663604597762305,
+domestic_gross,isgenre_action,0.26636045977623,Action films boost domestic gross; invest in action genres.
+runtime_minutes,numvotes,0.2627425221464961,Longer runtimes correlate with more votes; consider runtime to engage audiences.
+runtime_minutes,scaled_tn_production_budget,0.2621569501371957,
+runtime_minutes,tn_production_budget,0.2621569499231493,Longer runtimes often require higher budgets; plan budget for longer films.
+numvotes,isgenre_action,0.24842078364143894,Action films receive more votes; promote audience engagement with action genres.
+isgenre_sci-fi,scaled_tn_production_budget,0.246418508742964,
+tn_production_budget,isgenre_sci-fi,0.24641850832534715,Sci-fi films require higher budgets; allocate resources accordingly.
+runtime_minutes,isgenre_drama,0.23756170187840575,Drama films tend to have longer runtimes; consider runtime in drama productions.
+profit,isgenre_action,0.2266239009632887,Action films contribute to profit; invest in action genres.
+isgenre_action,scaled_profit,0.22662390081056896,
+runtime_minutes,log_profit,0.2264292509929948,Longer runtimes are linked to log profit; invest in longer films for better returns.
+runtime_minutes,scaled_tn_worldwide_gross,0.22577750675801622,
+runtime_minutes,tn_worldwide_gross,0.2257775062376686,Longer runtimes drive worldwide gross; consider runtime strategies for global markets.
 tn_domestic_gross,isgenre_animation,0.22406786000380532,Animation films perform well domestically; focus on animation genres.
-tn_production_budget,profit_proportion,0.22331446123329407,Higher production budgets are linked to ROI; optimize budget allocation.
-isgenre_drama,isgenre_biography,0.21517852108663899,
-runtime_minutes,isgenre_action,0.214462071502177,Action films tend to have longer runtimes; plan accordingly.
-domestic_gross,isgenre_animation,0.21279231254780204,Animation films boost domestic gross; prioritize animation production.
-isgenre_biography,isgenre_history,0.2105154370134289,Biography and history genres are related; explore crossover opportunities.
-averagerating,isgenre_drama,0.20812968367445803,Higher ratings are associated with drama films; focus on quality in drama genres.
-profit,isgenre_sci-fi,0.20789046800532887,Sci-fi films contribute to profit; invest in sci-fi genres.
-averagerating,profit_proportion,0.20023360510940966,Higher ratings improve ROI; ensure high film quality.
-runtime_minutes,profit,0.19704019462433425,
-isgenre_sci-fi,log_profit,0.19533943557807876,
-foreign_gross,isgenre_animation,0.18876987819721783,
-averagerating,tn_worldwide_gross,0.17631345579134092,
-isgenre_drama,isgenre_history,0.17558252595254623,
-isgenre_sci-fi,isgenre_action,0.1755570070639457,
-averagerating,profit,0.17469414816125692,
-isgenre_horror,isgenre_thriller,0.17061384210566627,
-isgenre_action,isgenre_crime,0.16970081459723416,
-tn_production_budget,isgenre_animation,0.16710079962851265,
-isgenre_animation,log_profit,0.163165389410594,
-averagerating,isgenre_documentary,0.16156822388944,
-averagerating,isgenre_biography,0.1577515953805995,
-tn_production_budget,isgenre_fantasy,0.15394962420690309,
-isgenre_animation,isgenre_comedy,0.1479744494239762,
-isgenre_thriller,isgenre_mystery,0.14447765220766873,
-runtime_minutes,isgenre_history,0.14425546137557382,
-tn_worldwide_gross,isgenre_animation,0.1423948353849028,
-profit_proportion,isgenre_adventure,0.1410470126716015,
-averagerating,tn_production_budget,0.13957355495454418,
-isgenre_drama,isgenre_romance,0.130302256022152,
-foreign_gross,isgenre_fantasy,0.12490664903146494,
-profit,isgenre_animation,0.12404633987845673,
-isgenre_fantasy,log_profit,0.12192674018450984,
-isgenre_adventure,isgenre_family,0.12125028580219151,
-isgenre_adventure,isgenre_fantasy,0.12066008583696045,
-runtime_minutes,profit_proportion,0.12053944760507607,
-isgenre_sport,isgenre_biography,0.12039434636248003,
-isgenre_adventure,isgenre_sci-fi,0.11977994046049992,
-tn_worldwide_gross,isgenre_fantasy,0.119470604463794,
-isgenre_romance,isgenre_comedy,0.11829699731737789,
-averagerating,log_profit,0.11658450190186562,
-profit_proportion,isgenre_comedy,0.10699039024742256,
-isgenre_family,isgenre_fantasy,0.10485888409495471,
-domestic_gross,isgenre_family,0.10427913002353385,
-runtime_minutes,isgenre_biography,0.1027847431622457,
-isgenre_mystery,isgenre_crime,0.10028671166228836,
-isgenre_drama,isgenre_fantasy,-0.10335531454320293,
-foreign_gross,isgenre_comedy,-0.10369264082726397,
-isgenre_crime,isgenre_fantasy,-0.10451011788136534,
-domestic_gross,isgenre_horror,-0.1046982748461918,
-isgenre_adventure,isgenre_biography,-0.1053475575441906,
-isgenre_thriller,isgenre_fantasy,-0.10636991272777797,
-isgenre_horror,isgenre_biography,-0.10639697563327442,
-foreign_gross,isgenre_horror,-0.10660025256495523,
-tn_production_budget,isgenre_horror,-0.10708327170537145,
-isgenre_action,isgenre_music,-0.10784867890467811,
-isgenre_thriller,isgenre_romance,-0.1097536761890285,
-isgenre_animation,isgenre_crime,-0.10992140944467295,
-isgenre_adventure,isgenre_history,-0.11042738421528758,
-foreign_gross,isgenre_crime,-0.11045398449831591,
-runtime_minutes,isgenre_horror,-0.11173175506167059,
-isgenre_thriller,isgenre_animation,-0.11181255078940192,
-isgenre_thriller,isgenre_biography,-0.11287708607274155,
-tn_production_budget,isgenre_romance,-0.11461198005429916,
-isgenre_horror,isgenre_action,-0.11464419972314717,
-domestic_gross,isgenre_biography,-0.11481693374849485,
-start_year,numvotes,-0.11520173599442372,
-isgenre_documentary,isgenre_action,-0.11672144308479725,
+tn_worldwide_gross,isgenre_sci-fi,0.22114531955322783,Sci-fi films contribute to worldwide gross; target global markets.
+isgenre_sci-fi,scaled_tn_worldwide_gross,0.22114531875916346,
+runtime_minutes,isgenre_action,0.21899787720935354,Action films tend to have longer runtimes; plan accordingly.
+averagerating,isgenre_drama,0.21847178606680553,Higher ratings are associated with drama films; focus on quality in drama genres.
+isgenre_biography,isgenre_drama,0.21611162462649658,
+runtime_minutes,scaled_domestic_gross,0.2125991216898547,
+runtime_minutes,domestic_gross,0.21259912168985434,Longer runtimes boost domestic gross; plan runtime accordingly.
+averagerating,roi_perc,0.21224469894575151,
+averagerating,profit_proportion,0.2122446989134576,Higher ratings improve ROI; ensure high film quality.
+isgenre_animation,scaled_domestic_gross,0.21054110457126923,
+domestic_gross,isgenre_animation,0.21054110457126904,Animation films boost domestic gross; prioritize animation production.
+isgenre_biography,isgenre_history,0.21007449943313689,
+tn_production_budget,roi_perc,0.20725211936751323,
+roi_perc,scaled_tn_production_budget,0.2072521193519422,
+tn_production_budget,profit_proportion,0.20725211890443643,Higher production budgets are linked to ROI; optimize budget allocation.
+profit_proportion,scaled_tn_production_budget,0.20725211888886452,
+runtime_minutes,profit,0.19575196186358138,
+runtime_minutes,scaled_profit,0.19575196136741088,
+isgenre_sci-fi,scaled_profit,0.19521597243646385,
+profit,isgenre_sci-fi,0.19521597165599977,Sci-fi films contribute to profit; invest in sci-fi genres.
+isgenre_animation,scaled_foreign_gross,0.18728128862662427,
+foreign_gross,isgenre_animation,0.1872812861214214,
+isgenre_sci-fi,log_profit,0.18461636112589142,
+isgenre_history,isgenre_drama,0.17552546676719263,
+averagerating,tn_worldwide_gross,0.17447256363533903,
+averagerating,scaled_tn_worldwide_gross,0.17447256352554902,
+averagerating,profit,0.17264875591694623,
+averagerating,scaled_profit,0.17264875579299116,
+isgenre_sci-fi,isgenre_action,0.16220054715477572,
+isgenre_action,isgenre_crime,0.1608169648419721,
+averagerating,isgenre_biography,0.16029129602648268,
+isgenre_animation,log_profit,0.15960054734165205,
+tn_production_budget,isgenre_animation,0.1544161022275682,
+isgenre_animation,scaled_tn_production_budget,0.15441610192157082,
+isgenre_thriller,isgenre_horror,0.15357091183382407,
+averagerating,isgenre_documentary,0.1523139668912097,
+tn_production_budget,isgenre_fantasy,0.1503542577388167,
+isgenre_fantasy,scaled_tn_production_budget,0.15035425734415103,
+isgenre_comedy,isgenre_animation,0.14223964805656983,
+averagerating,log_profit,0.14086142606876426,
+runtime_minutes,roi_perc,0.13776874187960358,
+runtime_minutes,profit_proportion,0.13776874116998064,
+averagerating,scaled_tn_production_budget,0.13649605981162194,
+averagerating,tn_production_budget,0.1364960597207991,
+runtime_minutes,isgenre_history,0.13403585408978771,
+isgenre_adventure,isgenre_fantasy,0.13364726890761436,
+profit_proportion,isgenre_adventure,0.13132575912091152,
+roi_perc,isgenre_adventure,0.13132575879142241,
+isgenre_mystery,isgenre_thriller,0.13097338791943583,
+isgenre_sport,isgenre_biography,0.12984701720501568,
+isgenre_animation,scaled_tn_worldwide_gross,0.1275392791017382,
+tn_worldwide_gross,isgenre_animation,0.1275392773997046,
+foreign_gross,isgenre_fantasy,0.123908020392247,
+isgenre_fantasy,scaled_foreign_gross,0.12390802037971477,
+isgenre_drama,isgenre_romance,0.12184333116101,
+isgenre_adventure,isgenre_family,0.12150599333667947,
+isgenre_romance,isgenre_comedy,0.11743811538093878,
+tn_worldwide_gross,isgenre_fantasy,0.11648686832224675,
+isgenre_fantasy,scaled_tn_worldwide_gross,0.11648686777761719,
+isgenre_fantasy,log_profit,0.11159255423915725,
+isgenre_animation,scaled_profit,0.10863372186732091,
+profit,isgenre_animation,0.10863372015717422,
+runtime_minutes,isgenre_biography,0.10668525686334544,
+domestic_gross,isgenre_family,0.10602440382262104,
+isgenre_family,scaled_domestic_gross,0.10602440382262088,
+isgenre_sci-fi,isgenre_adventure,0.10491905575317208,
+isgenre_fantasy,isgenre_family,0.10015920971066919,
+isgenre_romance,isgenre_horror,-0.10140917076555883,
+isgenre_horror,scaled_tn_production_budget,-0.10206011101158236,
+tn_production_budget,isgenre_horror,-0.10206011108383893,
+domestic_gross,isgenre_horror,-0.10294364121610369,
+isgenre_horror,scaled_domestic_gross,-0.10294364121610378,
+isgenre_biography,isgenre_horror,-0.10417848447363832,
+start_year,roi_perc,-0.1042246703217116,
+start_year,profit_proportion,-0.1042246703946399,
+isgenre_comedy,scaled_foreign_gross,-0.10472126667779418,
+foreign_gross,isgenre_comedy,-0.10472126676773465,
+isgenre_horror,scaled_foreign_gross,-0.10576055777478832,
+foreign_gross,isgenre_horror,-0.10576055782673216,
+isgenre_drama,isgenre_fantasy,-0.10582009097561983,
+isgenre_thriller,isgenre_fantasy,-0.10728642024355096,
+isgenre_crime,isgenre_fantasy,-0.10728642024355116,
+isgenre_history,isgenre_adventure,-0.1090058233004691,
+foreign_gross,isgenre_crime,-0.10949447628766522,
+isgenre_crime,scaled_foreign_gross,-0.10949447664864524,
+isgenre_drama,isgenre_horror,-0.11117016118654792,
+isgenre_biography,isgenre_adventure,-0.11134402394153595,
+isgenre_romance,scaled_tn_production_budget,-0.11151229114887641,
+tn_production_budget,isgenre_romance,-0.11151229129397022,
+isgenre_thriller,isgenre_romance,-0.11230926041880945,
+domestic_gross,isgenre_crime,-0.11234697700476116,
+isgenre_crime,scaled_domestic_gross,-0.1123469770047616,
+isgenre_crime,isgenre_animation,-0.11239134533573127,
+isgenre_action,isgenre_horror,-0.11405779967904062,
+isgenre_biography,isgenre_thriller,-0.11435854012078751,
+isgenre_biography,scaled_domestic_gross,-0.11473259371276427,
+domestic_gross,isgenre_biography,-0.11473259371276433,
+isgenre_action,isgenre_documentary,-0.11499331824666145,
+isgenre_thriller,isgenre_animation,-0.1161721739705847,
+isgenre_action,isgenre_music,-0.11635682014599974,
+isgenre_romance,scaled_domestic_gross,-0.11666571694975203,
+domestic_gross,isgenre_romance,-0.1166657169497524,
 tn_domestic_gross,isgenre_romance,-0.11751633002809862,
-domestic_gross,isgenre_crime,-0.1178654273270823,
 tn_domestic_gross,isgenre_crime,-0.11894966045533939,
-start_year,profit_proportion,-0.11912672370524491,
-isgenre_horror,isgenre_drama,-0.12083552918311684,
-isgenre_sci-fi,isgenre_comedy,-0.12092483674265506,
-profit_proportion,isgenre_drama,-0.12101359732908817,
-isgenre_thriller,isgenre_drama,-0.12117506781538462,
-domestic_gross,isgenre_romance,-0.12400367859009999,
+isgenre_sci-fi,isgenre_comedy,-0.11982185609777149,
+runtime_minutes,isgenre_horror,-0.12149749190718759,
+isgenre_documentary,isgenre_comedy,-0.12401184191155484,
+isgenre_thriller,isgenre_drama,-0.1248449513443137,
 tn_domestic_gross,isgenre_biography,-0.12576823492618616,
-isgenre_action,isgenre_mystery,-0.12767897236692322,
-isgenre_documentary,isgenre_comedy,-0.1283712210990929,
+isgenre_action,isgenre_mystery,-0.12682209920833012,
+isgenre_drama,log_profit,-0.12768581077142954,
 tn_domestic_gross,isgenre_horror,-0.12936798724188497,
-isgenre_adventure,isgenre_mystery,-0.13120857636330893,
-isgenre_action,isgenre_family,-0.13216642222618033,
-runtime_minutes,isgenre_comedy,-0.1338458575359159,
-foreign_gross,isgenre_romance,-0.13421646125220596,
-isgenre_drama,isgenre_sci-fi,-0.13553724040206178,
-isgenre_horror,isgenre_comedy,-0.13737343279305264,
-isgenre_drama,log_profit,-0.13836508202692863,
-isgenre_romance,isgenre_crime,-0.13948891209756226,
-isgenre_biography,isgenre_action,-0.14256772391318803,
-isgenre_thriller,isgenre_adventure,-0.14264818947689029,
-isgenre_horror,isgenre_adventure,-0.14298496159397495,
-isgenre_adventure,isgenre_crime,-0.14348041327428956,
-isgenre_biography,isgenre_comedy,-0.1443045512804451,
-isgenre_mystery,isgenre_comedy,-0.14432281594585233,
-isgenre_comedy,isgenre_history,-0.15170159142586404,
-foreign_gross,isgenre_biography,-0.15514185979317727,
-isgenre_action,isgenre_comedy,-0.1579415209719636,
-isgenre_adventure,isgenre_romance,-0.15938159525180748,
-profit,isgenre_drama,-0.1646075677417648,
-averagerating,isgenre_horror,-0.17776411103770062,
-tn_worldwide_gross,isgenre_drama,-0.18531470659400073,
-isgenre_documentary,log_profit,-0.1871559803474223,
-isgenre_romance,isgenre_action,-0.18886888054099546,
-runtime_minutes,isgenre_animation,-0.19017576995203656,
-isgenre_documentary,isgenre_drama,-0.20315406722809592,Documentary and drama genres are inversely related; target different audiences.
-tn_production_budget,isgenre_drama,-0.20732691978471468,Drama films tend to have lower budgets; plan budget allocation accordingly.
-runtime_minutes,isgenre_documentary,-0.20890842357777797,Documentary films tend to have shorter runtimes; plan runtime strategies.
-isgenre_drama,isgenre_action,-0.22146017326719833,Drama and action genres are inversely related; focus on distinct marketing strategies.
-isgenre_drama,isgenre_comedy,-0.22829754220188517,Drama and comedy genres are inversely related; target different audience segments.
-isgenre_drama,isgenre_animation,-0.23324015784734678,Drama and animation genres are inversely related; focus on distinct marketing strategies.
-isgenre_thriller,isgenre_comedy,-0.2411434966409082,Thriller and comedy genres are inversely related; target different audiences.
+foreign_gross,isgenre_romance,-0.12969038057939483,
+isgenre_romance,scaled_foreign_gross,-0.12969038131487698,
+runtime_minutes,isgenre_comedy,-0.13021312161897114,
+isgenre_crime,isgenre_romance,-0.13102135542488352,
+isgenre_sci-fi,isgenre_drama,-0.13284972218069668,
+isgenre_action,isgenre_family,-0.13303901093856824,
+isgenre_mystery,isgenre_adventure,-0.13543192357219233,
+isgenre_biography,isgenre_comedy,-0.13791470365453032,
+isgenre_adventure,isgenre_horror,-0.13837017294456352,
+isgenre_comedy,isgenre_horror,-0.1398430328376859,
+isgenre_thriller,isgenre_adventure,-0.14277455777493966,
+isgenre_mystery,isgenre_comedy,-0.14314179418470463,
+isgenre_crime,isgenre_adventure,-0.1474775665168277,
+isgenre_action,isgenre_biography,-0.1482719257129103,
+isgenre_history,isgenre_comedy,-0.15039438737295613,
+isgenre_drama,scaled_profit,-0.15469520055605804,
+profit,isgenre_drama,-0.15469520093079075,
+foreign_gross,isgenre_biography,-0.15666012343972552,
+isgenre_biography,scaled_foreign_gross,-0.15666012400143903,
+isgenre_adventure,isgenre_romance,-0.16146148812955122,
+isgenre_action,isgenre_comedy,-0.1668762913729477,
+averagerating,isgenre_horror,-0.16941759510945598,
+isgenre_documentary,log_profit,-0.17334606048645154,
+isgenre_drama,scaled_tn_worldwide_gross,-0.17687669379419296,
+tn_worldwide_gross,isgenre_drama,-0.17687669390608482,
+isgenre_action,isgenre_romance,-0.19092508020702373,
+isgenre_drama,isgenre_documentary,-0.19320058536265922,
+isgenre_drama,scaled_tn_production_budget,-0.20158173110978228,
+tn_production_budget,isgenre_drama,-0.20158173130256798,Drama films tend to have lower budgets; plan budget allocation accordingly.
+runtime_minutes,isgenre_animation,-0.20285720680391522,
+runtime_minutes,isgenre_documentary,-0.20371263602985346,Documentary films tend to have shorter runtimes; plan runtime strategies.
+isgenre_action,isgenre_drama,-0.22221822308203645,
+isgenre_drama,isgenre_comedy,-0.23124711230520095,
+isgenre_drama,isgenre_animation,-0.23882410224266146,
+isgenre_thriller,isgenre_comedy,-0.2478164422010278,
 tn_domestic_gross,isgenre_drama,-0.27470206972510575,Drama films tend to perform lower in domestic markets; strategize accordingly.
-domestic_gross,isgenre_drama,-0.292182325801007,Drama films have lower domestic gross; consider market preferences.
-foreign_gross,isgenre_drama,-0.3115119129239342,Drama films have lower foreign gross; adjust international marketing strategies.
-isgenre_adventure,isgenre_drama,-0.32224509247170197,Adventure and drama genres are inversely related; target different audience segments.
+isgenre_drama,scaled_domestic_gross,-0.292429372394583,
+domestic_gross,isgenre_drama,-0.29242937239458305,Drama films have lower domestic gross; consider market preferences.
+foreign_gross,isgenre_drama,-0.3053719290148841,Drama films have lower foreign gross; adjust international marketing strategies.
+isgenre_drama,scaled_foreign_gross,-0.3053719307482196,
+isgenre_drama,isgenre_adventure,-0.32206977302332934,
