@@ -6,13 +6,23 @@
 ## Overview
 Our company now sees all the big companies creating original video content and they want to get in on the fun. The company has decided to create a new movie studio, but they don’t know anything about creating movies. We are charged with exploring what types of films are currently doing the best at the box office. You must then translate those findings into actionable insights that the head of our company's new movie studio can use to help decide what type of films to create.
 
+## Real-World Problem
+The problem your company faces is understanding what makes a movie successful at the box office. With the significant investments required for movie production, making informed decisions is crucial to ensure profitability and return on investment (ROI).
+
+## Stakeholders
+The primary stakeholders for this project are the executives and decision-makers in your company's new movie studio. They need insights into current market trends, audience preferences, and financial metrics to guide their investments in movie projects.
+
 ## Business Understanding
-- __Goal:__ Recommend at least 3 actionable insights
-- __Stakeholders:__ Head of the company's new movie studio division
-- __Key Business Questions:__ 
-    1. What are the factors that correlate to a successful movie?
-    2. What is the most profitable genre?
-    3. How much investment is worth it to make a profit?
+__Goal:__ Recommend at least 3 actionable insights
+
+### Business Questions
+This project will address the following key questions to provide actionable insights:
+1. How do the number of reviews affect profit and ROI?
+2. What is the impact of average review scores on financial success?
+3. How does the budget influence a movie's profitability and ROI?
+4. Does the start year of the movie affect its financial performance?
+5. Which genres are most associated with high profits and ROI?
+6. How do the roles of director, lead actor, or writer within specific genres impact success?
 
 ## Data Understanding and Analysis
 - Source of Data:
@@ -21,6 +31,7 @@ Our company now sees all the big companies creating original video content and t
     3. The Numbers
     4. API's(The Movie Database, RapidAPI's Movies Database)
 - Description of Data: The data we analyzed from various sources identify factors for box office success, including genres, budget, profit, gross, runtime, ratings, and reviews. These features allow us to target and identify specific variables so we can make educated conclusions.
+
 ### Visualizations
 1. Analyzing vs. ROI
 
@@ -32,7 +43,7 @@ This heatmap lets us see how much each statistic affects the ROI and profit.
 
 ![Top Movies](images/Top_10_Movies.png)
 
-This shows us the ten movies that have made the most profit
+This shows us the ten movies that have made the most profit.
 
 3. ROI by Genre and Budget
 
@@ -44,38 +55,51 @@ This shows us the budget ranges for each genre and how much ROI they have. This 
 
 ![reviews](images/Reviews.png)
 
-This chart shows the number of reviews and how they affect the profit
+This chart shows the number of reviews and how they affect the profit.
+
+5. Role Impact by Genre
+
+![Role Impact by Genre](images/role_impact_roi_genre.png)
+
+This chart shows how different filmmaking roles have more or less impact in every genre.
 
 # Final Conclusions
-We define success as making a profit and having a high return on investment. With our data we were able to compare different features and quantify them so we could make exceptional judgments to guide the head of our company.
 
-To summarize our conclusions:
+We define success as profit and return on investment.
+We sought to answer how ROI affects these factors: Reviews and score, budget, start year, genre, and the impact on ROI of directors, actors and writers.
 
-1. __Number of Reviews:__ High engagement is a strong indicator of profitability. It could also indicate more people seeing the movie. Non predictive alone.
+## Number of Reviews and Review Scores
+High engagement is a strong indicator of profitability. It could also indicate more people seeing the movie. Non predictive alone.
 
-2. __Good Reviews:__ A higher review score significantly impacts profit and ROI. Ensure the movie is of high quality to enhance box office success.  Non predictive alone.
+## Good Reviews
+A higher review score significantly impacts profit and ROI. Ensure the movie is of high quality to enhance box office success.  Non predictive alone.
 
-3. __Budget, Genre and Role:__ Bigger budgets mean more risk but more reward.  Starting out with smaller risk and good ROI is a winning break in strategy.  
+## Budget, Genre and Role
+Bigger budgets mean more risk but more reward.  Starting out with smaller risk and good ROI is a winning break in strategy.  
 
-4. __Start Year:__ There is no time like the present as ROI decreases for movies as time goes on.
-
-
-
-## Next Steps
-There are still other components we could dive deeper into when it comes to the box office. To venture further into our analysis we would suggest the following:
-
-1. Number of reviews and review scores can’t predict.  We need the full reviews and analyze their contents.  Find out what predicts more reviews and better review scores.  Then use that as predictive parameters.
-
-2. How do we get “butts in seats”?  Analyze data on marketing, promotions, trends, popular ideas, strong IPs, trailer reception and more.
-
-3. Further understand actor, writer and director impact.  Build a model to predict good actors, directors and more for our projects.  Explore top directors, actors, writers and more.
-
-4. Get more and better data, our data set was limited to under 3000 movies.  IMDb and The Numbers both have amazing data, but come with big prices.  IMDb’s is $400,000 a year!
-
-5. Use all analysis to build predictive models.  Use it to predict the success of movie pitches!
+| Genre                     | Budget      | Budget Range      | ROI Impact |
+|---------------------------|-------------|-------------------|------------|
+| Romance                   | Low Budget  | Less than $2M     | Writer      |
+| Horror                    | Mid Budget  | $2M - $15M        | Director      |
+| Animation                 | Mid Budget  | $8M - $82M        | Director     |
+| Action, Adventure, Sci-Fi | High Budget | In the Future     |            |
 
 
+## Start Year
+There is no time like the present as ROI decreases for movies as time goes on.
 
+By focusing on these strategies, we can maximize our chances of success and tell more impactful stories that resonate with audiences.
+
+# Implications for Stakeholders
+Based on these findings, we recommend that the new movie studio:
+- **Focus on High Engagement**: Invest in marketing strategies that drive high audience engagement and reviews.
+- **Prioritize Quality**: Ensure high production quality to achieve better average review scores.
+- **Strategic Budget Allocation**: Allocate budgets strategically to balance potential returns with investment risks.
+- **Target Recent Trends**: Stay updated with recent market trends and audience preferences.
+- **Genre Selection**: Start with lower-risk genres like horror or comedy and gradually move to higher-budget genres like action and adventure as the studio gains more experience.
+- **Leverage Key Talent**: Invest in good directors, actors, and writers, and realize different roles have more leverage in different genres.
+
+These strategies should help the new movie studio maximize its chances of producing successful and profitable movies.
 
 
 ## For More Information

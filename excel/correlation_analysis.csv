@@ -83,7 +83,7 @@ isgenre_adventure,scaled_tn_production_budget,0.5029826248561008,
 isgenre_adventure,scaled_foreign_gross,0.4803499223934951,
 foreign_gross,isgenre_adventure,0.48034992111113567,Adventure films often perform well in international markets.
 tn_domestic_gross,isgenre_adventure,0.43556393103272445,Adventure films do well in domestic markets.
-isgenre_adventure,isgenre_animation,0.42027441616567546,
+isgenre_animation,isgenre_adventure,0.42027441616567546,
 isgenre_adventure,scaled_domestic_gross,0.41872404465294594,
 domestic_gross,isgenre_adventure,0.4187240446529454,Adventure films perform well domestically.
 isgenre_adventure,scaled_tn_worldwide_gross,0.37967035741759264,
@@ -124,7 +124,7 @@ tn_domestic_gross,isgenre_animation,0.24333103071422332,Animation movies perform
 isgenre_sci-fi,scaled_tn_production_budget,0.23970765100311314,
 tn_production_budget,isgenre_sci-fi,0.239707650615216,
 runtime_minutes,isgenre_drama,0.23804899714233266,
-isgenre_biography,isgenre_history,0.2357331173321848,
+isgenre_history,isgenre_biography,0.2357331173321848,
 numvotes,isgenre_adventure,0.22935221569802092,
 domestic_gross,isgenre_action,0.22859239999721853,Action movies perform well domestically.
 isgenre_action,scaled_domestic_gross,0.2285923999972181,
@@ -141,11 +141,11 @@ isgenre_animation,scaled_foreign_gross,0.20769494041010558,
 foreign_gross,isgenre_animation,0.20769493729309565,Animation movies perform well internationally.
 tn_worldwide_gross,isgenre_sci-fi,0.20297034577703432,
 isgenre_sci-fi,scaled_tn_worldwide_gross,0.20297034470683242,
-isgenre_drama,isgenre_comedy,-0.215078817749569,
+isgenre_comedy,isgenre_drama,-0.21507881774956905,
 isgenre_drama,isgenre_action,-0.21779599228265228,
-isgenre_drama,isgenre_animation,-0.23473022247412254,
+isgenre_animation,isgenre_drama,-0.2347302224741225,
 tn_domestic_gross,isgenre_drama,-0.2588072726844199,Drama movies perform worse domestically.
-isgenre_thriller,isgenre_comedy,-0.26895445660569334,
+isgenre_comedy,isgenre_thriller,-0.2689544566056934,
 foreign_gross,isgenre_drama,-0.27340915147066946,Drama movies perform worse internationally.
 isgenre_drama,scaled_foreign_gross,-0.2734091534166251,
 isgenre_drama,scaled_domestic_gross,-0.28029821860667486,
