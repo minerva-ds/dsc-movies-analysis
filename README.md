@@ -101,8 +101,33 @@ Based on these findings, we recommend that the new movie studio:
 
 These strategies should help the new movie studio maximize its chances of producing successful and profitable movies.
 
+## Navigating the Repository
+
+This repository is organized to facilitate easy access to all data, analysis, and documentation related to the project. Below is a guide to help you navigate through the various directories and files:
+
+### Root Directory
+- **index.ipynb**: The main Jupyter Notebook containing the full analysis of the project.
+- **presentation.pdf**: The presentation slides summarizing the project findings and recommendations.
+- **README.md**: The main documentation file providing an overview of the project, business understanding, and instructions for navigating the repository.
+
+### Data Directories
+- **additional_data/**: Contains supplementary data and notebooks used for data processing and analysis, including pickle files from data we obtained from APIs.
+  - **imdb_flat_files/**: Contains IMDb flat files.
+
+- **apis/**: Contains notebooks and data related to API data collection and processing.  API Keys are removed so to use them you'll have to put in your own API Key.
+  - **scrap_notebooks/**: Prior versions of api files, or notebooks for understanding the apis or one off tasks
+
+- **excel/**: Contains CSV files with analysis results.
+
+- **images/**: Contains images used in the project and presentations.
+
+- **scrapnotebooks/**: Contains notebooks used for various analyses and unused plots.
+
+- **zippedData/**: Contains compressed data files used in the project.
+
+
 
 ## For More Information
-See the full analysis in the [Jupyter Notebook](https://github.com/james-warsing/Movie-Data-Analysis/blob/main/index.ipynb) or review this [presentation](https://github.com/james-warsing/Movie-Data-Analysis/blob/main/Movie%20analysis.pdf)
+See the full analysis in the [Jupyter Notebook](index.ipynb) or review this [presentation](presentation.pdf)
 
 For additional info, contact [Chisum Lindauer](https://www.linkedin.com/in/chisum-lindauer-2632112/) or [James Warsing](https://www.linkedin.com/in/james-warsing-a51360303/)
